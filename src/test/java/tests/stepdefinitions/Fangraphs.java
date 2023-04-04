@@ -19,7 +19,7 @@ public class Fangraphs {
     @Steps
     PlayerPage playerPage;
 
-    @Given("User is on Fantrax Home Page")
+    @Given("User is on Fangraphs Home Page")
     public void openFangraphs() {
         homePage.open();
         System.out.println("Home Page is open");
