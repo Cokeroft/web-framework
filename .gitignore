@@ -1,2 +1,8 @@
 
 target/site/serenity/browser-chrome.properties
+
+*.txt
+
+*.xml
+
+*.csv
