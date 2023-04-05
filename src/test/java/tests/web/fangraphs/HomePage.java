@@ -37,12 +37,6 @@ public class HomePage extends PageObject {
                 break;
             }
         }
-        /**for (int i = 0; classNameCount > i; i++) {
-            String listName = $(By.className("player-name")).getText();
-            if (listName.contains(playerName)) {
-                $(By.className("player-name")).click();
-            }
-        }*/
 
         // $(By.className("player-name")).click();
         globalVariables.setSearchPlayerName(playerName);

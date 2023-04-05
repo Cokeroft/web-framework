@@ -24,6 +24,7 @@ Feature: Player Search Tests for Fangraphs.com
     Given User is on Fangraphs Home Page
     When User searches for player "<player>"
     Then User should be on the correct Player Page
+    Then Player should have their stats table shown
     Examples:
       | player            |
       | Shohei Ohtani     |

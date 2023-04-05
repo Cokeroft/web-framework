@@ -34,4 +34,9 @@ public class Fangraphs {
     public void playerPageCheck() {
         playerPage.playerPageVerify();
     }
+
+    @Then("Player should have their stats table shown")
+    public void playerStatsTable() {
+        playerPage.playerStatsTable();
+    }
 }
