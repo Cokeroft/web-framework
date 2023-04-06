@@ -8,3 +8,5 @@ target/site/serenity/browser-chrome.properties
 *.csv
 
 *.html
+
+*.lst
