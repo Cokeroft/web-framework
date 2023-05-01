@@ -1,5 +1,7 @@
 package tests.web.fangraphs;
 
+import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Shared;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.PageObject;
@@ -9,14 +11,14 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import tests.GlobalVariables;
+import net.serenitybdd.screenplay.Performable;
 
 import java.util.List;
 
 public class HomePage extends PageObject {
     @Shared
     GlobalVariables globalVariables;
-
-
+    
     @Step("Search Player Name")
     public void searchPlayer(String playerName) {
         $(By.className("search-query")).sendKeys(playerName);

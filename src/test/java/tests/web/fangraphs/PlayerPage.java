@@ -1,5 +1,6 @@
 package tests.web.fangraphs;
 
+import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Shared;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.PageObject;
