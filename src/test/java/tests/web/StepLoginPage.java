@@ -1,13 +1,18 @@
 package tests.web;
 
+import io.restassured.response.Response;
+import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
 public class StepLoginPage extends PageObject {
+
+    private Response response;
     @Step("Enter Username")
     public void inputUserName(String userName) {
         $(By.id("user_login")).sendKeys(userName);
+        //response = SerenityRest.given().get("test.com").then().statusCode(200).extract().response();
     }
 
     @Step("Enter Password")
