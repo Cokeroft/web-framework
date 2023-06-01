@@ -32,5 +32,9 @@ Feature: Player Search Tests for Fangraphs.com
       | Hunter Renfroe    |
       | Taylor Ward       |
 
+  @PlayerSearch-Test
+  Scenario: Testing
+  Given Testing
+
   # TODO - add more verifications?
   # TODO - maybe split up scenarios and look for the mvp of each league.
